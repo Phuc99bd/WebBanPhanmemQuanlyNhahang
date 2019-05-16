@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>Phần mềm quản lý bán hàng</title>
+	<link href="index.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="shortcut icon" type="image/png" href="image/thunderstorm.png"/>
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+		<div align="center" id="l">
+		<a href="index.html" id="da"><img src="image/cooltext321978188216908.png" height="50"></a>	
+		<a href="Tintuc.html" id="tinhnang">TIN TỨC</a>
+		<a href="Tinhnang.html" id="tinhnang">TÍNH NĂNG</a>
+		<a href="Hotro.html" id="tinhnang">HỖ TRỢ</a>
+		<a href="Baogia.html" id="tinhnang">BÁO GIÁ</a></div>
+	<header>
+		
+		<div id="left">
+		
+		<p id="h1">Phần Mềm Quản Lý <br>Nhà HàngTốt Nhất</p>
+		<p id="hear"> <b id="red">📌</b> Hơn 35,000 khách hàng đăng ký sử dụng</p>
+		<p> <b id="red">📌</b> 5 văn phòng đại diện trên toàn quốc</p>
+		<p> <b id="red">📌</b> 1&nbsp;trung tâm&nbsp;hỗ trợ khách hàng 24/7</p>
+		
+			<div id="Slickout" style="box-shadow: none;  border-radius: 0px;   padding: 7px; "><div class="popup-CokhachNotification-Content"><div class="avatar"><img id="popup-CokhachNotification-avatar" src="https://w.cokhach.com/assets/images/avatar/4/1.gif"></div><div class="popup-CokhachNotification-ContentText"><div class="title">Vừa thực hiện đăng ký</div><p>Khách hàng <span id="cokhach_fakeName">Sơn Tùng</span> có email <span id="cokhach_fakeEmail">vovanloan@hotmail.com</span> vừa mới đăng ký thành công</p></div></div></div>
+			
+		</div>
+		
+		<div id="mess-chat">
+		<Label onClick="Moboxchat()">
+		<img src="image/131.jpg" id="chat"></Label></div>
+		
+		<div align="right" id="telephone"><a href="tel:0383197989"><img id="tele" src="image/iconfinder_phone_1645999 (1).png" width="54" height="54"></a></div>
+		
+		<div id="DKI">
+		<table cellspacing="2" rows="6">
+		<tr><td>
+		<img src="image/Capture5.PNG" width="80" height="60"></td>
+		<td><p>Không giới hạn dùng và thiết<br> bị sử dụng</p></td> </tr>
+		<tr>
+		<td>
+		<img src="image/Capture7.PNG">
+		</td>
+		<td>
+		<p>Hỗ trợ cài đặt và hướng dẫn trong suốt quá trình sử dụng </p></td></tr>
+		<tr><td colspan="2">
+		<input id="text" type="text" placeholder="  Họ tên"  required></td>
+		</tr>
+		<tr><td colspan="2">
+		<input id="text1" type="email" placeholder="  Email"  required></td>
+		</tr>
+		<tr><td colspan="2">
+		<input id="text2" type="tel" placeholder="  Số điện thoại"></td>
+		</tr>
+		<tr><td colspan="2">
+		<input id="text4" type="text" placeholder="  Tên quán / Nhà hàng nếu có"></td>
+		</tr>
+		<tr><td colspan="2">
+		<a href="#" id="chuyentrang"><button id="submit" onClick="return Kiemtrathongtin()">Đăng kí</button></a>
+		</tr>
+		</table>
+			
+		</div>
+		<div id="dktc"><img src="https://img.thuthuatphanmem.vn/uploads/2018/10/26/anh-gif-dong-dep-va-hai_055202213.gif" width="300" height="250"><br><p>Đăng kí thành công</p></div>
+		<div id="mess-box-chat">
+		<div id="sum-bot">
+		<div><img src="image/131.jpg" id="Bot" width="54" height="54"></div>
+		<Label onClick="CClose()"><p id="Close">x</p></Label>
+		<div id="Bot-tex"><p id="name-tex">Nguyễn Nhật Hường</p><p id="cd-tex">Đang trực tuyến</p></div>
+		
+		</div>
+		<div id="phan-chat">
+			<div id="noidung-chat">
+				<img src="image/131.jpg" id="Bot-2" width="30" height="30">
+			
+				<div id="noidung-chat-index">
+					<p>🌲 Chào Anh (chị) </p>
+					<p style="text-align: right; margin-top: 10px; margin-right: 5px;">Gửi lúc 10:48:22 </p>
+				</div>
+				
+				<div id="noidung-chat-index-2">
+					<p>🌲 Tôi muốn xem Demo phần mềm </p>
+					<p style="text-align: right; margin-top: 10px;margin-right: 5px;">Gửi lúc 10:49:53 </p>
+				</div>
+				
+				<img src="https://w.cokhach.com/assets/images/user.png" id ="user" width="30" height="30">
+				
+				<img src="image/131.jpg" id="Bot-2" width="30" height="30">
+				
+				<div id="noidung-chat-index">
+					<p> 🌲 Anh (chị) A cho em xin số di động để hỗ trợ ạ </p>
+					<p style="text-align: right; margin-right: 5px;">Gửi lúc 10:49:53 </p>
+				</div>
+				
+				<img src="image/131.jpg" id="Bot-2" width="30" height="30">
+				
+				<div id="noidung-chat-index">
+					<p> 🌲 Anh (chị) cho em biết tên để tiện xưng hô ạ </p>
+					<p style="text-align: right;margin-right: 5px; ">Gửi lúc 18:43:03 </p>
+				</div>
+	
+			</div>
+			<div id="input-text">
+				<input type="text" placeholder="Nội dụng chat...." id="input-1">
+				<input type="submit" id="input-2">
+				
+			</div>
+			
+		</div>
+		</div>
+		
+	</header>
+	<nav>
+	<div id="subnav"> 
+	<p id="canhle"> <b>Đáp ứng mọi nghiệp vụ</b></p>
+	<p style="line-height: 1.5;">&nbsp;</p>
+	<p id="ml"><b id="blue">🔵</b>&nbsp;Kiểm tra tình trạng bàn trống để ghi nhận đặt chỗ</p>
+	<p id="ml"><b id="blue">🔵&nbsp;</b>Giới thiệu món và ghi order bằng điện thoại, máy tính bảng</p>
+	<p id="ml"><b id="blue">🔵&nbsp;</b>Nhận danh sách món cần chế biến ngay khi khách gọi món</p>
+	<p id="ml"><b id="blue">🔵&nbsp;</b>Kiểm tra order nào đang yêu cầu thanh toán để tính tiền kịp thời</p>
+	<p id="ml"><b id="blue">🔵&nbsp;</b>Tự động áp dụng khuyến mại, giá bán theo khung giờ khi tính tiền</p>
+	<a href="#DKI"><button id="btn-circle" >Dùng thử miễn phí</button></a>
+	
+	</div>
+	<div id="right"> <img src="image/detail-order.png"></div>
+	</nav>
+	<article>
+		<aside>
+			<div id="ss">
+				<div id="HUHU">
+				<img src="image/Untitled.png" id="img">
+				<p id="Tieude"> Phục vụ chuyên nghiệp </p>
+				<p id="noidung">FFQ.VN đem đến một trải nghiệm tuyệt vời cho cả thực khách và nhân viên lễ tân. Thời gian phục vụ được rút gọn 50% nhờ tính năng Order, gọi món trực tiếp tại bàn bằng điện thoại/máy tính bảng</p>
+				</div>
+				<div id="HUHU">
+				<img src="image/peter-wendt-123928-unsplash.jpg" id="img">
+				<p id="Tieude"> Quản lý hiệu quả </p>
+				<p id="noidung">Quản lý kho, quản lý nguyên vật liệu, quản lý sổ sách kế toán dòng tiền. Tất cả đều kết nối trong một phần mềm duy nhất FFQ.VN, giúp chủ nhà hàng kiểm soát chặt chẽ tình hình kinh doanh</p>
+				</div>
+				<div id="HUHU">
+				<img src="image/Viva star (1).jpg" id="img">
+				<p id="Tieude"> Quảng cáo thông minh </p>
+				<p id="noidung">Ngoài các tính năng phục vụ và quản lý, CUKCUK.VN còn cho phép các chủ nhà hàng quản lý danh sách khách hàng, quản lý thẻ giảm giá, tích điểm và tự động gửi các thông tin khuyến mãi</p>
+				</div>
+			</div>
+		</aside>
+		<section>
+			<div>
+			<p> Hãy Lựa Chọn gió thuê bao phù hợp nhất</p>
+			<div> <div id="GSS"> <img src="image/GOI1.png" id="GOI">
+			<a href="#DKI"><button class="gs">Đặt mua gói này</button> </a> </div>
+			<div id="GSS"> <img src="image/GOI2.png" id="GOI"> 
+			<a href="#DKI"><button class="gs">Đặt mua gói này</button> </a></div>
+			<div id="GSS"> <img src="image/GOI3.png" id="GOI"> 
+			<a href="#DKI"><button class="gs">Đặt mua gói này</button> </a></div>
+			</div>
+			</div>
+		</section>
+	</article>
+	<footer>
+		<div>
+			<p> @2019 FFQ </p>
+		</div>
+	</footer>
+</body>
+</html>

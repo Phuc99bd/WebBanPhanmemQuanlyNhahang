@@ -1,0 +1,363 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	width: 1349px;
+	height: auto;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+}
+#l{
+	padding-top: 15px;
+	position: fixed;
+	background-color:rgba(203,203,203,1.00);
+	width: 1349px;
+	height: 50px;
+}
+#tinhnang{
+	clear: both;
+	text-align: center;
+	font-size: 24px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+	color: black;
+	transition: 0.5s;	
+	opacity: 0.9;
+	
+}
+#da{
+	float: left;
+	font-size: 30px;
+	padding-left: 100px;
+	color:rgba(121,121,121,1.00);
+	transition: 0.5s;	
+	opacity: 0.9;
+}
+#da1{
+	float: left;
+	font-size: 30px;
+	padding-left: 100px;
+	color:rgba(121,121,121,1.00);
+	transition: 0.5s;	
+	opacity: 0.8;
+	
+}
+#tinhnang:hover{
+	color: aliceblue;
+	font-size: 28px;
+	text-decoration: underline;
+	text-decoration-color: aliceblue;
+	
+}
+#tinhnang1{
+	clear: both;
+	text-align: center;
+	font-size: 24px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: black;
+	transition: 0.5s;	
+	opacity: 0.9;
+	text-decoration: underline;
+	text-decoration-color: white;
+}
+#tinhnang1:hover{
+	color: aliceblue;
+	font-size: 28px;
+	text-decoration: underline;
+	text-decoration-color: aliceblue;
+}
+#s{
+	clear: both;
+	padding-top: 10px;
+	text-align: center;
+}
+.gs{
+width: 150px;    
+height: 40px;   
+font-size: 18px;
+color:rgba(49,64,177,1.00);
+border-radius: 30px;
+
+margin-top: 300px;
+border-color:rgba(49,64,177,1.00);
+background-color: white;
+}
+.gs:hover{
+	background-color:rgba(178,179,139,1.00);
+}.gs2:hover{
+	background-color:rgba(178,179,139,1.00);
+}
+.gs3:hover{
+	background-color:rgba(178,179,139,1.00);
+}
+.gs4:hover{
+	background-color:rgba(178,179,139,1.00);
+}
+.gs2{
+width: 150px;    
+height: 40px;   
+font-size: 18px;
+color:rgba(49,64,177,1.00);
+border-radius: 30px;
+padding-bottom: 4px;
+margin-top: 215px;
+border-color:rgba(49,64,177,1.00);
+background-color: white;
+	
+}
+.gs3{
+width: 150px;    
+height: 40px;   
+font-size: 18px;
+color:rgba(220,67,25,1.00);
+border-radius: 30px;
+padding-bottom: 4px;
+margin-top: 170px;
+border-color:rgba(220,67,25,1.00);
+background-color: white;
+}
+.gs4{
+width: 150px;    
+height: 40px;   
+font-size: 18px;
+color:rgba(49,64,177,1.00);
+border-radius: 30px;
+padding-bottom: 4px;
+margin-top: 40px;
+border-color:rgba(49,64,177,1.00);
+background-color: white;
+}
+
+header{
+	width: 100%;
+	height: 1000px;
+	background-image: url("image/suno-tieu-chuan-nhat-ban-2018-event-background.png");
+	background-size: 100% 1000px;
+	background-repeat: no-repeat;
+}
+header p#s1{
+	padding-top: 100px;
+	font-size: 35px;
+	text-align: center;
+	color: white;
+}
+header p#s2{
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 10px;
+}
+#star1{
+	margin-top: 150px;
+	width: 250px;
+	height: 700px;
+	float: left;
+	border:2px solid whitesmoke;
+	background-color: white;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 10);
+
+}
+#star3{
+	margin-left: 180px;
+	margin-top: 150px;
+	width: 250px;
+	height: 700px;
+	float: left;
+	border:2px solid whitesmoke;
+	background-color: white;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 10);
+}
+#star2{
+	margin-top: 100px;
+	width: 250px;
+	height: 750px;
+	float: left;
+	border:2px solid red;
+	background-color:white;
+}
+#tree{
+	border-bottom: 2px solid rgba(175,175,175,1.00);
+}
+#t1{
+	font-size: 25px;
+	color:rgba(211,85,10,1.00);
+	text-align: center;
+	padding-top: 70px;
+}
+#d1{
+	font-size: 25px;
+	color: blue;
+	text-align: center;
+	padding-top: 20px;
+}
+#d2{
+	font-size: 35px;
+	text-align: center;
+	color:#4682B4
+	
+}
+#t2{
+	font-size: 35px;
+	text-align: center;
+	color:rgba(211,85,10,1.00);
+}
+#d25{
+	color: rgba(128,128,128,1.00);
+	font-size: 20px;
+	text-align: center;
+	padding-top: 5px;
+}
+#d3{
+	color: black;
+	text-align: center;
+	font-size: 20px;
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+#sa{
+	padding-top: 20px;
+	font-size: 18px;
+	list-style: none;
+	list-style-image: url("image/submit.PNG");
+	padding-left: 50px;
+	width: 180px;
+	
+}
+#tree3{
+	border-bottom: 2px solid rgba(175,175,175,1.00);
+	height: 220px;
+}
+nav{
+	margin-top: 100px;
+	height: auto;
+}
+.aa{
+width: 250px;    
+height: 40px;   
+font-size: 18px;
+color:white;
+border-radius: 30px;
+padding-bottom: 4px;
+margin-left: 75px;
+margin-top: 10px;
+border-color:#4682B4;
+background-color: #4682B4
+}
+.aa:hover{
+	background-color: rgba(204,175,176,1.00);
+}
+#khoitao{
+	margin-top: 100px;
+}
+#Dichvu{
+	margin-top: 100px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 30px;
+}
+#tuvan{
+	margin-left: 150px;
+	width: 80%;
+	height: 150px;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 10);
+}
+#tuvan2{
+	margin-left: 150px;
+	width: 80%;
+	height: 200px;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 10);
+}
+#tuvan3{
+	margin-left: 150px;
+	width: 80%;
+	height: 620px;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 10);
+}
+#gioituvan{
+	float:left;
+	width: 290px;
+	height: 150px;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 10);
+}
+#gioituvan2{
+	float:left;
+	width: 290px;
+	height: 200px;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 10);
+}
+#gioituvan3{
+	float:left;
+	width: 290px;
+	height: 620px;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 10);
+}
+#noidungtuvan{
+	
+	padding: 20px;
+	padding-top: 50px;
+	width: auto;
+	font-size: 24px;
+	color: blue;
+}
+#noidungtuvan3{
+	
+	padding: 20px;
+	padding-top: 250px;
+	width: auto;
+	font-size: 24px;
+	color: blue;
+}
+#Dinhgia{
+	float:left;
+	width: 600px;
+	height: 150px;
+	font-size: 20px;
+	
+}
+#Dinhgia > p {
+	font-size: 20px;
+	color: black;
+	padding: 20px;
+	padding-top: 50px;
+}
+
+#checkbox{
+	margin-left:  20px;
+	font-size: 20px;
+}
+#a{
+	float: left;
+	width: auto;
+	padding-top: 40px;
+	
+}
+#a2{
+	float: left;
+	width: auto;
+	padding-top: 250px;
+	
+}
+footer{
+	padding-top: 20px;
+	text-align: center;
+	background-color: rgba(57,155,189,1.00)	;
+	height: 100px;
+	color: white;
+	font-size: 20px;
+	
+}
+footer a {
+	text-decoration: none;
+	color: white;
+}
+footer a:hover{
+	text-decoration: underline;
+	text-decoration-color: white;
+}

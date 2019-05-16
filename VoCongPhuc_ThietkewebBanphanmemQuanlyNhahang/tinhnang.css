@@ -1,0 +1,451 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+#da1{
+	float: left;
+	font-size: 30px;
+	padding-left: 100px;
+	color:rgba(121,121,121,1.00);
+	transition: 0.5s;	
+	opacity: 0.8;
+	
+}
+body{
+	width: 1349px;
+	height: auto;
+	margin:  0 auto;
+}
+a{
+	text-decoration: none;
+}
+header{
+	background-image:url("image/PC_baner_tinhNang.jpg");
+ 	background-size: 1349px 600px;
+	background-repeat: no-repeat;
+	height: 600px;
+}
+nav{
+	background-color: whitesmoke;
+	margin-top: 100px;
+	text-align: center;
+}
+#nghiepvu{
+	font-size: 40px;
+}
+#nd{
+	margin-top: 20px;
+	font-size: 20px;
+	text-align: center;
+}
+aside{
+	margin-top: 70px;
+	padding-left: 150px;
+	padding-right: 150px;
+	height: 600px;
+	background-color: whitesmoke;
+}
+#left{
+	margin-top: 50px;
+	background-image: url("image/nv-le-tan.jpg");
+	background-repeat: no-repeat;
+	background-size: 250px 460px;
+	float: left;
+	width: 250px;
+	height: 460px;
+	font-size: 20px;
+	color: rgba(249,249,249,1.00)
+}
+
+#GA{
+	margin-top: 50px;
+	background-image: url("image/nv-phuc-vu.jpg");
+	background-repeat: no-repeat;
+	background-size: 450px 240px;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	width: 450px;
+	height: 220px;
+	font-size: 20px;
+	color: rgba(249,249,249,1.00)
+	
+}
+#GB{
+	margin-top: 50px;
+	background-image: url("image/nv-thu-ngan.jpg");
+	background-repeat: no-repeat;
+	background-size: 250px 220px;
+	float: left;
+	width: 250px;
+	height: 220px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	color: rgba(249,249,249,1.00)
+}
+#GC{
+	background-image: url("image/nv-bep-bar.jpg");
+	background-repeat: no-repeat;
+	background-size: 250px 220px;
+	width: 250px;
+	height: 220px;
+	margin-left: 20px;
+	float: left;
+	font-size: 20px;
+	color: rgba(249,249,249,1.00)
+}
+#GD{
+	background-image: url("image/nv-chay-ban.jpg");
+	background-repeat: no-repeat;
+	background-size: 450px 220px;
+	margin-left: 20px;
+	float: left;
+	width: 450px;
+	height: 220px;
+	font-size: 20px;
+	color: rgba(249,249,249,1.00)
+}
+div#left > p {
+	float: right;
+	text-align: right;
+	width: 120px;
+	padding-right: 10px;
+}
+div#GA > p {
+	text-align: left;
+	width: 120px;
+	padding-left: 10px;
+}
+div#GB > p {
+	text-align: left;
+	width: 120px;
+	padding-left: 10px;
+}
+div#GC > p {
+	padding-right: 10px;
+	float: right;
+	text-align: right;
+	width: 120px;
+}
+
+div#GD > p {
+	padding-left: 10px;
+	text-align:left;
+	width: 120px;
+}
+#s{
+	clear: both;
+	padding-top: 10px;
+	text-align: center;
+}
+.gs{
+width: 200px;    
+height: 40px;   
+font-size: 18px;
+color:rgba(224,34,76,1.00);
+border-radius: 30px;
+padding-bottom: 4px;
+margin-left: 75px;
+margin-top: 10px;
+border-color:rgba(212,36,69,1.00);
+background-color: white;
+}
+
+#a{
+	color: rgba(207,91,13,1.00);
+}
+#a:hover {
+	background-color: rgba(84,172,154,1.00);
+}
+#b{
+	background-color:rgba(15,132,217,1.00);
+	color: white;
+}
+#b:hover{
+	background-color:rgba(153,153,153,1.00);
+}
+#c:hover{
+	background-color:rgba(153,153,153,1.00);
+}
+#c{
+	background-color: rgba(192,90,37,1.00);
+	color: white;
+}
+#l{
+	padding-top: 15px;
+	position: fixed;
+	background-color:rgba(203,203,203,1.00);
+	width: 1350px;
+	height: 50px;
+}
+#tinhnang{
+	clear: both;
+	text-align: center;
+	font-size: 24px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+	color: black;
+	transition: 0.5s;	
+	opacity: 0.9;
+	
+}
+#da{
+	float: left;
+	font-size: 30px;
+	padding-left: 100px;
+	color:rgba(121,121,121,1.00);
+	transition: 0.5s;	
+	opacity: 0.9;
+}
+#tinhnang:hover{
+	color: aliceblue;
+	font-size: 28px;
+	text-decoration: underline;
+	text-decoration-color: aliceblue;
+}
+#tinhnang1{
+	clear: both;
+	text-align: center;
+	font-size: 24px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: black;
+	transition: 0.5s;	
+	opacity: 0.9;
+	text-decoration: underline;
+	text-decoration-color: white;
+}
+#tinhnang1:hover{
+	color: aliceblue;
+	font-size: 28px;
+	text-decoration: underline;
+	text-decoration-color: aliceblue;
+}
+section{
+	width: 100%;
+	height: 1700px;
+}
+.detail-f-list-item-box{
+	float: left;
+	margin-top: 200px;
+	height: 500px;
+	width: 50%;
+	background-color: 	#4682B4;
+}
+#blue{
+	color:blue;
+}
+.detail-f-list-item-box-title{
+	padding-top:100px;
+	padding-left: 100px;
+	padding-bottom: 20px;
+	color: white;
+	font-size: 30px;
+}
+.detail-f-list-item-box-desc{
+	padding-left: 100px;
+	color: white;
+	font-size: 20px;
+}
+.detail-f-list-item-box-list{
+	padding-top: 15px;
+	padding-left: 100px;
+	color: white;
+	font-size: 20px;
+	width: 60%;
+}
+#list{
+	list-style: none;
+}
+#fim{
+	padding-left: 100px;
+	padding-top: 50px;
+}
+#hinhanhle{
+	float: left;
+	margin-top: 200px;
+	background-image: url("image/tải xuống (1).jpg");
+	background-size: auto 500px;
+	background-repeat: no-repeat;
+	width: 50%;
+	height: 500px;
+}
+#hinhanhle2{
+	float: left;
+	
+	background-image: url("image/tải xuống (1).jpg");
+	background-size: auto 500px;
+	background-repeat: no-repeat;
+	width: 50%;
+	height: 500px;
+}
+#anh{
+	width: 450px;
+	height: 450px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 125px;
+	
+}
+.detail-f-list-item-box2{
+	float: left;
+	height: 500px;
+	width: 50%;
+	background-color: 	#4682B4;
+}
+aside#f2{
+	margin-top: 200px;
+	width: 100%;
+	background-color: whitesmoke;
+	padding: 0px;
+	height: 750px;
+	
+}
+#sidef2{
+	padding-top: 100px;
+	width: 100%;
+	text-align: center;
+
+}
+#ndtinhnang{
+	float: left;
+	padding-top: 50px;
+	padding-left: 250px;
+	font-size: 18px;
+	width:30%;
+	
+
+}
+#ndtinhnang > ul > li{
+	width: auto;
+}
+#nghiepvu2{
+	text-align: center;
+	font-size: 35px;
+	color: white;
+	padding-top: 100px;
+	
+}
+#anhtinhnang{
+	padding-top: 40px;
+	width: 40%;
+	height: 400px;
+	float: left;
+}
+#atn{
+	width: 500px;
+	height: 400px;
+}
+#tinhnangQuanly{
+	margin-top: 200px;
+	background-image: url("image/suno-tieu-chuan-nhat-ban-2018-event-background.png");
+	background-repeat: no-repeat;
+	background-size: auto 500px;
+	width: 100%;
+	height: 450px;
+}
+#nd1{
+	padding-top: 20px;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+#noidugQL{
+	padding-top: 20px;
+	font-size: 18px;
+	padding-left: 300px;
+	color: white;
+}
+#fimTT{
+	padding-left: 300px;
+	padding-top: 50px;
+}
+#QLMH{
+	margin-top: 100px;
+	width: 100%;
+	height: 750px;
+}
+#nghiepvu3{
+	text-align: center;
+	font-size: 35px;
+	color: black;
+	padding-top: 100px;
+	
+}
+#nd2{
+	padding-bottom: 50px;
+	padding-top: 20px;
+	font-size: 20px;
+	text-align: center;
+	color: black;
+	width: 800px;
+	padding-left: 300px;
+}
+#QLTK{
+	background-image: url("image/tải xuống (2).jpg");
+	background-repeat: no-repeat;
+	background-size: 1350px 700px;
+	margin-top: 0px;
+	width: 100%;
+	height: 700px;
+}
+#anhTK{
+	padding-left: 100px;
+	padding-right: 100px;
+	width: 800px;
+	height: 400px;
+	
+}
+#QLCTKM{
+	height: 900px;
+	width: 100%;
+	background-color: rgba(185,212,206,1.00);
+}
+#anhCTKM{
+	padding-left: 100px;
+	padding-right: 100px;
+	width: 800px;
+	height: 600px;
+	
+}
+#QLTPT{
+	width: 100%;
+	height: 700px;
+}
+#QLCN{
+	height: 700px;
+	width: 100%;
+	background-color: rgba(185,212,206,1.00);
+}
+#QLTD{
+	width: 100%;
+	height: 900px;
+	
+}
+#QLNV{
+	height: 750px;
+	width: 100%;
+	background-color: rgba(185,212,206,1.00);
+}
+footer{
+	padding-top: 20px;
+	text-align: center;
+	background-color: rgba(57,155,189,1.00)	;
+	height: 100px;
+	color: white;
+	font-size: 20px;
+	
+}
+footer a {
+	text-decoration: none;
+	color: white;
+}
+footer a:hover{
+	text-decoration: underline;
+	text-decoration-color: white;
+}
